@@ -1,0 +1,19 @@
+{
+  "name": "test-task/payment-api",
+  "description": "Payment API Library",
+  "type": "library",
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PaymentAPI\\": "src/"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7",
+    "phpmd/phpmd": "^2.14",
+    "sebastian/phpcpd": "^6.0"
+  }
+}
